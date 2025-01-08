@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="py-14 lg:py-[100px]">
     <div class="container">
       <div
         class="mb-7 flex flex-col items-center justify-center gap-5 lg:mb-14 lg:flex-row lg:justify-between"
