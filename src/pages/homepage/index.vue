@@ -243,14 +243,14 @@
   </div>
 </template>
 <script setup lang="ts">
-import ProjectSlider from "../../components/ProjectSlider.vue";
+import ProjectSlider from "@/components/ProjectSlider.vue";
 import CountUp from "vue-countup-v3";
 import { ref, onMounted } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay } from "swiper/modules";
 import "swiper/css/navigation";
 import "swiper/css";
-import { useAppStore } from "../../stores/index";
+import { useAppStore } from "@/stores/index";
 
 const store = useAppStore();
 

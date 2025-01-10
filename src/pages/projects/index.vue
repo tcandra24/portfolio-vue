@@ -564,8 +564,8 @@
 </template>
 
 <script setup lang="ts">
-import ProjectSlider from "../../components/ProjectSlider.vue";
-import { useAppStore } from "../../stores/index";
+import ProjectSlider from "@/components/ProjectSlider.vue";
+import { useAppStore } from "@/stores/index";
 import { ref, onMounted } from "vue";
 
 const store = useAppStore();

@@ -224,7 +224,7 @@
 </template>
 <script lang="ts" setup>
 import { ref } from "vue";
-import { useAppStore } from "../stores/index";
+import { useAppStore } from "@/stores/index";
 const store = useAppStore();
 const showMenu = ref(false);
 const showSearch = ref(false);

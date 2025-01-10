@@ -113,10 +113,10 @@
 </template>
 <script lang="ts" setup>
 import { ref, onMounted } from "vue";
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
+import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
 
-import { useAppStore } from "../stores/index";
+import { useAppStore } from "@/stores/index";
 const store = useAppStore();
 
 const showTopButton = ref(false);

@@ -113,7 +113,7 @@
 </template>
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
-import { useAppStore } from "../../stores/index";
+import { useAppStore } from "@/stores/index";
 const store = useAppStore();
 
 const activeTab = ref("all");

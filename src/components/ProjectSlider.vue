@@ -124,7 +124,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import { useAppStore } from "../stores/index";
+import { useAppStore } from "@/stores/index";
 const store = useAppStore();
 
 interface Projects {
