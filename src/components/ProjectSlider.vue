@@ -92,7 +92,7 @@
           class="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark"
         >
           <router-link
-            to=""
+            :to="{ name: 'portfolio', params: { id: project.id } }"
             class="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"
           ></router-link>
           <img
